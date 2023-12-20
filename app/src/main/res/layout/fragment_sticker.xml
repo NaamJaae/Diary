@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MyStickerDialogFragment">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이 날은 어떤 하루인가요?"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/ohsquareair"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/sticker_confident"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_confident"
+                android:tag="sticker4"/>
+
+            <Button
+                android:id="@+id/sticker_normal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_normal"
+                android:tag="sticker5"/>
+            <Button
+                android:id="@+id/sticker_happy"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/sticker_happy"
+                android:tag="sticker6"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="7dp">
+
+            <Button
+                android:id="@+id/sticker_angry"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_angry"
+                android:tag="sticker1"/>
+
+            <Button
+                android:id="@+id/sticker_bored"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_bored"
+                android:tag="sticker2"/>
+            <Button
+                android:id="@+id/sticker_excited"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/sticker_excited"
+                android:tag="sticker3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="7dp">
+
+            <Button
+                android:id="@+id/sticker_awesome"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_awesome"
+                android:tag="sticker7"/>
+
+            <Button
+                android:id="@+id/sticker_nervous"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_nervous"
+                android:tag="sticker8"/>
+            <Button
+                android:id="@+id/sticker_sad"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/sticker_sad"
+                android:tag="sticker9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="7dp">
+
+            <Button
+                android:id="@+id/sticker_sick"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_sick"
+                android:tag="sticker10"/>
+
+            <Button
+                android:id="@+id/sticker_tired"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/sticker_tired"
+                android:tag="sticker11"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            >
+            <Button
+                android:id="@+id/sticker_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundcorner"
+                android:text="정했다!"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/ohsquareair"
+                android:textFontWeight="500"
+                />
+
+            <Button
+                android:id="@+id/sticker_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundcorner"
+                android:text="취소"
+                android:backgroundTint="#00000000"
+                android:fontFamily="@font/ohsquareair"
+                android:textFontWeight="500"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

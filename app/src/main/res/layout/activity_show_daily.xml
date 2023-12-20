@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDailyActivity"
+    android:background="@drawable/txt_texture1"
+    android:backgroundTint="#60282624"
+    android:backgroundTintMode="src_over"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/paw5"
+        android:layout_alignParentTop="true"
+        app:tint="#70243443"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/show_back"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/previous"
+                android:backgroundTint="#513136" />
+            
+            <TextView
+                android:id="@+id/show_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dangdanghae"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="20XX-XX-XX"
+                android:textColor="#243443"
+                android:textSize="27dp"/>
+
+
+            <Button
+                android:id="@+id/show_next"
+                android:layout_width="49dp"
+                android:layout_height="49dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/next"
+                android:backgroundTint="#513136" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/show_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:fontFamily="@font/dangdanghae"
+            android:gravity="center"
+            android:hint="일기 제목을 입력해주세요."
+            android:textColorHint="@color/black"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/show_image"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="#D09C85"
+                android:elevation="20dp"
+                android:scaleType="center"
+                android:src="@drawable/load_bar_s" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:elevation="24dp"
+                android:src="@drawable/bottom_triagle" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:elevation="24dp"
+                android:src="@drawable/top_triagle" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/roundcorner"
+            android:backgroundTint="#E1DBCD"
+            android:elevation="20dp"
+
+            >
+
+            <TextView
+                android:id="@+id/show_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/notebook_texture"
+                android:fontFamily="@font/surroundair"
+                android:gravity="start"
+                android:padding="8dp"
+                android:textColorHint="#1C1C1C"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/paw4"
+                app:tint="#bb243443" />
+
+            <ImageView
+                android:id="@+id/show_sticker"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:src="@drawable/sticker_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

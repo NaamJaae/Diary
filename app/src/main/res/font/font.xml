@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <font android:font="@font/dangdanghae"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/danjunghae"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/decoline"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+
+    <font android:font="@font/decoschool"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+
+    <font android:font="@font/nanumgothic"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/nanumgothic_bold"
+        android:fontWeight="700"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/nanumgothic_extrabold"
+        android:fontWeight="900"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/simplehae"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/surroundair"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+
+    <font android:font="@font/ohsquareair"
+        android:fontWeight="400"
+        android:fontStyle="normal"/>
+
+
+</font-family>
